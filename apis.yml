@@ -1,8 +1,13 @@
 aid: movandi
 name: Movandi
-description: 'Movandi is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Movandi is an RF semiconductor company founded by former Broadcom executives
+  (CEO Maryam Rofougaran and CTO Reza Rofougaran) that designs 5G mmWave chipsets, RF front
+  ends, phased-array antenna modules, 5G smart repeaters, and beamforming software for
+  terrestrial and non-terrestrial networks. Based in Irvine, California and backed by
+  Sierra Ventures, the company holds 130+ patents covering millimeter wave semiconductor,
+  system, and software technologies spanning 5G, fixed wireless, and satellite connectivity.
+  Movandi is a hardware/semiconductor vendor and does not currently publish a public
+  developer API, SDK, or developer portal surface.'
 url: https://raw.githubusercontent.com/api-evangelist/movandi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://movandi.com/wp-content/uploads/2017/06/Movandi_Logo_Red-Transparent_NS.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardware
+- Semiconductors
+- 5G
+- mmWave
+- Wireless
+- RF
+- Connectivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/movandi-domain-security.yml
 - type: Website
   url: https://movandi.com/
+- type: About
+  url: https://movandi.com/about/
+- type: Blog
+  url: https://movandi.com/news/
+- type: Support
+  url: https://movandi.com/contact/
+- type: TermsOfService
+  url: https://movandi.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://movandi.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
